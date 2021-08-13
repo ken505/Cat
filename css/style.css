@@ -45,7 +45,7 @@ img {
 .sub-title {
     font-size: 1.375rem;
     padding: 0 8px 8px;
-    border-bottom: 2px #0bd solid;
+    border-bottom: 2px pink solid;
     font-weight: normal;
 }
 
@@ -92,7 +92,7 @@ iframe {
     color: gray;
 }
 .main-nav a:hover {
-    color: #0bd;
+    color: pink;
 }
 
 /* HOME
@@ -103,6 +103,7 @@ iframe {
 }
 #home .page-title {
     text-transform: none;
+    font-family: 'Philosopher', serif;
 }
 .home-content {
     text-align: center;
@@ -122,6 +123,7 @@ iframe {
 }
 #news .page-title {
     text-align: center;
+    font-family: 'Philosopher', serif;
 }
 .news-contents {
     display: flex;
@@ -139,7 +141,7 @@ article {
     margin-bottom: 40px;
 }
 .post-date {
-    background: #0bd;
+    background: pink;
     border-radius: 50%;
     color: #fff;
     width: 100px;
@@ -192,7 +194,7 @@ aside {
     display: block;
 }
 .sub-menu a:hover {
-    color: #0bd;
+    color: pink;
 }
 aside p {
     padding: 12px 10px;
@@ -210,6 +212,7 @@ aside p {
 }
 .menu-content .page-title {
     text-align: center;
+    font-family: 'Philosopher', serif;
 }
 .menu-content p {
     font-size: 1.125rem;
@@ -317,6 +320,7 @@ footer p {
     .page-title {
         font-size: 2.5rem;
         margin-top: 35px;
+        font-family: 'Philosopher', serif;
     }
     .page-header {
         flex-direction: column;
@@ -343,6 +347,7 @@ footer p {
     }
     #news .page-title {
         margin-top: 30px;
+        font-family: 'Philosopher', serif;
     }
     article,
     aside {
@@ -383,6 +388,7 @@ footer p {
     /* CONTACT */
     #contact .page-title {
         margin-top: 40px;
+        font-family: 'Philosopher', serif;
     }
 
     /* フォーム */
