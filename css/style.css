@@ -56,7 +56,7 @@ img {
 
 /* ボタン */
 .button {
-  font-family: "Philosopher", serif;
+  /* font-family: "Philosopher", serif; */
   /* font-family: "Yu Gothic Medium",  */
   font-size: 1.375rem;
   background: pink;
@@ -166,7 +166,7 @@ article {
 }
 .post-title {
   /* font-family: "Yu Mincho", "YuMincho", serif; */
-  font-family: "Philosopher", serif;
+  /* font-family: "Philosopher", serif; */
   font-size: 2rem;
   font-weight: normal;
 }
@@ -322,6 +322,7 @@ footer p {
 ------------------------------- */
 @media (max-width: 600px) {
   .page-title {
+    font-family: "Philosopher", serif;
     font-size: 2.5rem;
     margin-top: 35px;
   }
