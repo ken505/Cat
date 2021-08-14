@@ -24,9 +24,9 @@
         </h1>
         <nav>
           <ul class="main-nav">
-            <li ><a href="menu.html">Menu</a></li>
-            <li ><a href="news.html">News</a></li>
-            <li ><a href="contact.html">Contact</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
       </header>
@@ -62,7 +62,7 @@
           <h3 class="sub-title">猫好きの聖地</h3>
           <p>
             田代島
-            <br/>
+            <br />
             宮城県石巻市の牡鹿半島の近く
           </p>
         </div>
@@ -85,20 +85,21 @@
 
     <section id="sns">
       <div class="wrapper">
-        <div class="sns-box">
-          <h3 class="sub-title">Instagram</h3>
+        <div class="sns-box"><h3 class="sub-title">Instagram</h3>
+          <!-- ↓ 下記 style はローカルでは反映さるが、 build すると反映されない。
+          build 時は instagram-media のスタイルが反映されるのか？ -->
           <blockquote
             class="instagram-media"
             data-instgrm-permalink="https://www.instagram.com/p/CNMyiSZgyFh/?utm_source=ig_embed&amp;utm_campaign=loading"
             data-instgrm-version="13"
             style="
-              background: rgb(177, 41, 41);
+              background: #fff;
               border: 0;
               border-radius: 3px;
               box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5),
                 0 1px 10px 0 rgba(0, 0, 0, 0.15);
               margin: 1px;
-              /* max-width: 200; */
+              max-width: 200;
               min-width: 150;
               padding: 0;
               width: 99.375%;
@@ -370,7 +371,12 @@
           </blockquote>
           <script async src="//www.instagram.com/embed.js"></script>
         </div>
+</div>
+      </div>
+    </section>
 
+    <section id="sns">
+      <div class="wrapper">
         <div class="sns-box">
           <h3 class="sub-title">Twitter</h3>
           <a
